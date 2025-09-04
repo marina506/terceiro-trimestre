@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Boas-Vindas</title>
+    <style>
+        button {
+            padding: 20px;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body style="background-color: azure;">
+    <h1 style="color: rgb(30, 61, 72);">Atividade de Boas-Vindas</h1>
+    <button onclick="inicio()">Comece AQUI!</button>
+    <script>
+        function inicio() {
+            let nome = window.prompt('Qual o seu nome?');
+            let idade = window.prompt(`Olá,  ${nome}! Qual sua idade?`);
+            window.alert(`Que maravilha ${nome}! Você tem ${idade}! anos `)
+        }
+    </script>
+
+</body>
+
+</html>
