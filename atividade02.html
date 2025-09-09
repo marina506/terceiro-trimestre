@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de cliques</title>
+</head>
+<body>
+    <h1>Saudação</h1>
+<button onclick="inicio()">Comece AQUI!</button>
+    <section id="resposta">
+<p>A resposta vai ficar aqui!</p>
+    </section>
+<script>
+        function inicio() {
+            let numero = window.prompt ('Digite um número');
+            let solucao = document.getElementById('resposta');
+            solucao.innerHTML = `<p>Olá ! voce escolheu ${numero} </p>`;
+        
+            
+        }
+    </script>
+</body>
+</html>
