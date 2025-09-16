@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Distância</title>
+     <style>
+        button{
+            padding: 20px;
+            background-color: rgb(137, 85, 111);
+        }
+    </style>
+</head>
+<body style="background-color: azure;">
+   <h1 style="color: rgb(94, 13, 64);">Convertor de Distâncias</h1>
+   <button onclick="clique()">Comece AQUI!</button>
+
+
+    <script>
+        function clique() {
+            let numero = Number(prompt('Digite sua distância em metros!'));
+            let Quilômetro = numero / 1000;
+            let Hectômetro = numero /100;
+            let Decâmetro = numero /10;
+            let Decímetro = numero * 10;
+            let Centímetro = numero * 100;
+            let Milímetro = numero * 1000;
+            window.alert(`Em Quilômetro  é ${Quilômetro}!  Em  Hectômetro  é ${ Hectômetro }! Em Decâmetro é ${ Decâmetro }! Em  Decímetro é ${ Decímetro }! Em Centímetro é ${ Centímetro}! Em Milímetro é ${ Milímetro}! `)
+        }
+    </script>
+</body>
+
+
+</body>
+</html>
